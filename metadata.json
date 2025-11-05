@@ -1,0 +1,5 @@
+{
+  "name": "Hostel Management System",
+  "description": "A role-based application for managing student, staff, and visitor entries in a hostel.",
+  "requestFramePermissions": []
+}

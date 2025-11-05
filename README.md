@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎓 Student Database Project
 
-# Run and deploy your AI Studio app
+This project demonstrates a simple **student management system** built using **Node.js**, **Express**, and **SQLite**.  
+It allows adding, viewing, updating, and deleting student records easily through a server-side application.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1K1ITnLzsvSPbadTfwSoPUsLb7AV8e57b
+## ⚙️ Features
+- Add new student details  
+- View all student records  
+- Update existing student information  
+- Delete a student from the database  
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🗄️ Database Details
+The application uses **SQLite** as a lightweight local database.
 
+**Table: student**
+| Column | Type | Description |
+|---------|------|-------------|
+| id | INTEGER | Unique student ID (Primary Key) |
+| roll_no | TEXT | Student roll number |
+| name | TEXT | Student name |
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 How to Run Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/archana-git-2006/student-database-project.git
+
